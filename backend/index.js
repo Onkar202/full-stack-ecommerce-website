@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb+srv://ronyk010201:ycAhAsx6eEf8kehY@cluster0.i0ruy.mongodb.net/");
+mongoose.connect("add your mogodb cluster link here with password");
 
 // paste your mongoDB Connection string above with password
 // password should not contain '@' special character
